@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Arxiu XML que representa els productes d'una botiga online -->
+<store>
+    <!-- Primer producte de la botiga -->
+    <product id="P001">
+        <name>Smartphone X12</name>
+        <description>Un telèfon intel·ligent d'alta gamma amb càmera de 108MP.</description>
+        <price currency="EUR">899.99</price>
+        <category>Electrònica</category>
+        <availability status="in_stock">En estoc</availability>
+        <image>https://example.com/images/smartphone_x12.jpg</image>
+    </product>
+    <!-- Segon producte de la botiga -->
+    <product id="P002">
+        <name>Auriculars ProSound</name>
+        <description>Auriculars amb cancel·lació de soroll i àudio d'alta qualitat.</description>
+        <price currency="EUR">199.99</price>
+        <category>Accessoris</category>
+        <availability status="out_of_stock">Esgotat</availability>
+        <image>https://example.com/images/auriculars_prosound.jpg</image>
+    </product>
+</store>

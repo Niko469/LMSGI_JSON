@@ -1,0 +1,82 @@
+{
+    "pokemons": {
+        "llista_pokemon": [
+            {
+                "id": "0001",
+                "nom": "Bulbasaur",
+                "tipus": ["planta", "verí"],
+                "pes": {
+                    "weight": 6.9,
+                    "unitat": "kg"
+                },
+                "altura": {
+                    "height": 0.7,
+                    "unitat": "m"
+                },
+                "estadistiques": {
+                    "velocitats": 5,
+                    "fortaleza": 6,
+                    "precisió": 5,
+                    "resistencia": 5
+                },
+                "moviments": [
+                    {
+                        "nom": "Látigo Cepa",
+                        "descripció": "Moviment de tipus planta que colpeja amb vinyes.",
+                        "potència": 45,
+                        "contacte": "Sí"
+                    }
+                ],
+                "imatge": "https://www.goodvinilos.com/4589/adhesivo-pokemon-bulbasaur.jpg",
+                "evolucions": [
+                    {
+                        "id": "0002",
+                        "nivell": 16
+                    },
+                    {
+                        "id": "0003",
+                        "nivell": 32
+                    }
+                ]
+            },
+            {
+                "id": "0010",
+                "nom": "Caterpie",
+                "tipus": ["bicho"],
+                "pes": {
+                    "weight": 2.9,
+                    "unitat": "kg"
+                },
+                "altura": {
+                    "height": 0.3,
+                    "unitat": "m"
+                },
+                "estadistiques": {
+                    "velocitats": 4,
+                    "fortaleza": 3,
+                    "precisió": 4,
+                    "resistencia": 2
+                },
+                "moviments": [
+                    {
+                        "nom": "Placaje",
+                        "descripció": "Un atac senzill de tipus normal.",
+                        "potència": 40,
+                        "contacte": "Sí"
+                    }
+                ],
+                "imatge": "https://i.pinimg.com/736x/9f/6e/fa/9f6efa277ddcc1e8cfd059f2c560ee53.jpg",
+                "evolucions": [
+                    {
+                        "id": "0011",
+                        "nivell": 7
+                    },
+                    {
+                        "id": "0012",
+                        "nivell": 10
+                    }
+                ]
+            }
+        ]
+    }
+}
